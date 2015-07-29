@@ -8,7 +8,7 @@ Package.describe({
 
 Package.onUse(function (api) {
   api.versionsFrom('METEOR@1.1')
-  api.use(['underscore', 'templating'], 'client')
+  api.use(['underscore', 'templating', 'mongo'], 'client')
   api.addFiles(
     'videobackground.html',
     'client'
