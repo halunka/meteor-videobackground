@@ -4,7 +4,8 @@ Template.videobackground.onRendered(function () {
       loop: 1,
       type: 'vimeo',
       volume: 0,
-      aspectRatio: 1.8
+      aspectRatio: 1.8,
+      autoWidth: 1
     },
     this.data)
   )
