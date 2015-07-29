@@ -10,7 +10,10 @@ Package.onUse(function (api) {
   api.versionsFrom('METEOR@1.1')
   api.use(['underscore', 'templating', 'mongo'], 'client')
   api.addFiles(
-    'videobackground.html',
+    [
+      'videobackground.html',
+      'videobackground.css'
+    ],
     'client'
   )
   api.addFiles(

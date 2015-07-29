@@ -1,0 +1,15 @@
+.videobackground {
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 105vh;
+  text-align: center;
+}
+
+.videobackground__frame {
+  position: absolute;
+  left: 50%;
+}
