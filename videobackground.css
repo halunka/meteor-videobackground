@@ -10,9 +10,9 @@
 }
 
 .videobackground__frame {
-  min-height: 105vh;
+  min-height: 110vh;
   min-width: 100vw;
   position: absolute;
-  left: 50%;
-  top: 50%;
+  left: 45%;
+  top: 45%;
 }
