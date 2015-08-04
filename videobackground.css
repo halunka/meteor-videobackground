@@ -4,8 +4,8 @@
   z-index: -1;
   top: 0;
   left: 0;
-  width: 110vw;
-  height: 105vh;
+  width: 100vw;
+  height: 100vh;
   text-align: center;
 }
 
@@ -13,6 +13,6 @@
   min-height: 100vh;
   min-width: 100vw;
   position: absolute;
-  left: 45%;
-  top: 45%;
+  left: 50%;
+  top: 50%;
 }
