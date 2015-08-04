@@ -4,13 +4,13 @@
   z-index: -1;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 110vw;
+  height: 105vh;
   text-align: center;
 }
 
 .videobackground__frame {
-  min-height: 110vh;
+  min-height: 100vh;
   min-width: 100vw;
   position: absolute;
   left: 45%;
