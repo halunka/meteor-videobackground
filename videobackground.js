@@ -5,8 +5,7 @@ Template.videobackground.onRendered(function () {
       type: 'vimeo',
       volume: 0,
       aspectRatio: 1.8,
-      autoSize: 1,
-      posterTimeout: 5000
+      autoSize: 1
     },
     this.data)
   )
