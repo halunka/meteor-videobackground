@@ -6,7 +6,7 @@ Template.videobackground.onRendered(function () {
       volume: 0,
       aspectRatio: 1.8,
       autoSize: 1,
-      posterTimeout: 2000
+      posterTimeout: 5000
     },
     this.data)
   )
