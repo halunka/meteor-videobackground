@@ -1,7 +1,7 @@
 Package.describe({
   name: 'halunka:videobackground',
   summary: 'A package that makes it easy to render those fancy background videos into your templates.',
-  version: '0.0.8',
+  version: '0.0.9',
   git: 'https://github.com/halunka/meteor-videobackground',
   documentation: 'README.md'
 })
