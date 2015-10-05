@@ -9,10 +9,37 @@
   text-align: center;
 }
 
+.videobackground {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
 .videobackground__frame {
+  z-index: 1;
   min-height: 100%;
   min-width: 100%;
   position: absolute;
   left: 50%;
   top: 50%;
+  transition: opacity .2s;
+}
+
+
+.videobackground__poster {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity .2s;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.videobackground__poster--hidden {
+  opacity: 0;
 }
