@@ -1,5 +1,5 @@
 Template.videobackground.onRendered(function () {
-  renderVideo(this.firstNode, _.extend(
+  renderVideo(this.firstNode.children[0], _.extend(
     {
       loop: 1,
       type: 'vimeo',

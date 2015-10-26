@@ -16,7 +16,7 @@
   position: absolute;
 }
 
-.videobackground__frame {
+.videobackground__resizer {
   z-index: 1;
   min-height: 100%;
   min-width: 100%;
@@ -26,7 +26,6 @@
   transition: opacity .2s;
 }
 
-
 .videobackground__poster {
   position: absolute;
   z-index: 2;
@@ -34,12 +33,21 @@
   top: 0;
   right: 0;
   bottom: 0;
-  opacity: 0;
   transition: opacity .2s;
-  background-size: 100%;
+  background-size: 100% 100%;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 
 .videobackground__poster--hidden {
   opacity: 0;
 }
+
+.videobackground__frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
