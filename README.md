@@ -1,4 +1,4 @@
-# meteor-videobackground - 0.0.15
+# meteor-videobackground - 0.1.0
 A package that makes it easy to render those fancy background videos into your templates.
 
 ## Usage

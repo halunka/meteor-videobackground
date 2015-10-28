@@ -1,7 +1,7 @@
 Package.describe({
   name: 'halunka:videobackground',
   summary: 'A package that makes it easy to render those fancy background videos into your templates.',
-  version: '0.0.15',
+  version: '0.1.0',
   git: 'https://github.com/halunka/meteor-videobackground',
   documentation: 'README.md'
 })
@@ -20,6 +20,7 @@ Package.onUse(function (api) {
     [
       'lib/utils.js',
       'lib/vimeo.js',
+      'lib/native.js',
       'lib/renderVideo.js',
       'videobackground.js'
     ],
